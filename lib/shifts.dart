@@ -49,7 +49,7 @@ class _ShiftsState extends State<Shifts> {
                       )))),
           child: const ShiftTile(
             shiftName: "Night Shift",
-            shiftTime: "9:30am - 6:30pm",
+            shiftTime: "9:30pm - 6:30am",
             shiftIconData: Icons.night_shelter,
           ),
         )
