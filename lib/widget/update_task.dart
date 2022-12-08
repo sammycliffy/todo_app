@@ -58,8 +58,6 @@ class _UpdateTaskAlertDialogState extends State<UpdateTaskAlertDialog> {
                     horizontal: 20,
                     vertical: 20,
                   ),
-                  icon: const Icon(CupertinoIcons.square_list,
-                      color: Colors.brown),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(15),
                   ),
@@ -76,8 +74,6 @@ class _UpdateTaskAlertDialogState extends State<UpdateTaskAlertDialog> {
                     horizontal: 20,
                     vertical: 20,
                   ),
-                  icon: const Icon(CupertinoIcons.bubble_left_bubble_right,
-                      color: Colors.brown),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(15),
                   ),
@@ -86,8 +82,6 @@ class _UpdateTaskAlertDialogState extends State<UpdateTaskAlertDialog> {
               const SizedBox(height: 15),
               Row(
                 children: <Widget>[
-                  const Icon(CupertinoIcons.tag, color: Colors.brown),
-                  const SizedBox(width: 15.0),
                   Expanded(
                     child: DropdownButtonFormField2(
                       decoration: InputDecoration(
